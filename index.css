@@ -7,13 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+.main-section {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     display: flex;
-    flex: auto;
     justify-content: space-between;
     height: 100px;
     background-color: #1F2937;
@@ -45,6 +46,24 @@ header img {
 }
 
 .logo h1 {
-    padding-left: 16px;
+    margin-left: 16px;
     color: white;
+}
+
+.hero {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.hero img {
+    height: 300px;
+    margin: 60px;
+}
+
+.description {
+    margin: 40px;
+    max-width: 600px;
 }
