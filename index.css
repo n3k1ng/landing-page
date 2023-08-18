@@ -7,8 +7,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
 .main-section {
     height: 100vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
 }
@@ -18,13 +25,14 @@ header {
     justify-content: space-between;
     height: 100px;
     background-color: #1F2937;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 header ul {
     display: flex;
     align-items: center;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 header img {
@@ -34,8 +42,8 @@ header img {
 
 .menu-links {
     color: white;
-    padding: 6px 8px;
-    border-radius: 12px;
+    padding: 3px 8px;
+    border-radius: 8px;
     border: 1px solid white;
     font-size: 14px;
 }
@@ -48,6 +56,7 @@ header img {
 .logo h1 {
     margin-left: 16px;
     color: white;
+    line-height: 32px;
 }
 
 .hero {
@@ -56,14 +65,21 @@ header img {
     display: flex;
     flex: 1;
     align-items: center;
+    justify-content: space-between;
 }
 
 .hero img {
-    height: 300px;
-    margin: 60px;
+    height: 540px;
+    box-shadow: 8px 6px #171e29;
 }
 
 .description {
-    margin: 40px;
+    min-width: 500px;
     max-width: 600px;
+    margin-right: 100px;
+    
+}
+
+.description * {
+    margin-bottom: 20px;;
 }
