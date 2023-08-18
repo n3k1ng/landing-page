@@ -37,7 +37,8 @@ header ul {
 }
 
 header img {
-    border: 1px solid #5c4361;
+    border: 1px solid #8c6494;
+    border-radius: 4px;
     height: 60px;
 }
 
