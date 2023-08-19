@@ -138,6 +138,7 @@ button:hover {
     height: 200px;
     width: 200px;
     object-fit: cover;
+    box-shadow: 3px 3px 10px rgba(140, 100, 148, 0.356);
 }
 
 .card p {
