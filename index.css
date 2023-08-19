@@ -167,7 +167,7 @@ button:hover {
 
 .call-action {
     display: flex;
-    height: 300px;
+    height: 400px;
     justify-content: center;
     align-items: center;
 }
@@ -184,4 +184,17 @@ button:hover {
 .call-card button {
     margin-left: 100px;
     align-self: center;
+}
+
+footer {
+    height: 50px;
+    background-color: #171e29;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #8c6494;
 }
