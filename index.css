@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: #e9dfe9;
 }
 
 body > * {
@@ -112,7 +112,6 @@ button:hover {
 }
 
 .showcase-section {
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,4 +163,25 @@ button:hover {
 .testimonial-section p {
     font-style: italic;
     font-size: 24px;
+}
+
+.call-action {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-card {
+    background-color: #171e29;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-card button {
+    margin-left: 100px;
+    align-self: center;
 }
