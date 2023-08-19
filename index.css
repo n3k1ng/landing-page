@@ -15,7 +15,7 @@ body {
 }
 
 body > * {
-    padding: 20px 10vw;
+    padding: 0 10vw;
 }
 
 .main-section {
@@ -113,4 +113,20 @@ button:hover {
 
 .showcase-section {
     background-color: white;
+    margin-top: 48px;
+}
+
+.card-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.card img {
+    border: 4px solid #8c6494;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    height: 200px;
+    object-fit: cover;
 }
