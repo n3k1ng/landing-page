@@ -8,9 +8,6 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #e9dfe9;
 }
 
